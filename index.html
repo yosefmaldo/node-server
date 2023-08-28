@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      section {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Send Message</h1>
+      <form action="/send_message" method="POST">
+        <input type="text" name="message" placeholder="Add your message" />
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+  </body>
+</html>
